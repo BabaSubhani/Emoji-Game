@@ -1,0 +1,52 @@
+/* Write your code here. */
+
+.nav-bar-card-container {
+  background-color: #ffffff33;
+  padding: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-img {
+  height: 29px;
+}
+
+.emoji-logo-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.scores-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.win-lose-score-container {
+  display: none;
+}
+
+.game-score {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.total-score {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+}
